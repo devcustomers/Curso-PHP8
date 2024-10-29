@@ -10,13 +10,19 @@ comentario
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> PHP CURSO </title>
 </head>
+
 <body>
     <?php
+    // VARIABLES PREDEFINIDAS:
+    
+
+
     $name = "Melo Matthew";
     $food = "pizza";
     $email = "fake@gmail.com";
@@ -47,10 +53,13 @@ comentario
     echo "the sales taz rates is: {$tax_rate} <br>";
 
     echo " online status: {$online} <br>";
-    echo "tu orden es {$quantity} x {$food}s";
-    $total = $quantity * $price;
-    echo "Tu total es: ${$total}";
-        ?>
+    echo "tu orden es {$quantity} x
     
+     {$food}s";
+    $total = $quantity * $price;
+    echo "Tu total es: ${$total}"; 
+        ?>
+
 </body>
+
 </html>
